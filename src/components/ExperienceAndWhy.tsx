@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Authentic Scottish Encounters",
-  description: "Discover castle ruins, whisky distilleries, and unspoiled landscapes through expertly guided shore excursions steeped in history and heritage.",
+  title: "Country House at Sea",
+  description: "Offers an intimate, all-inclusive experience aboard Hebridean Princess with just 50 guests.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "All-Inclusive Comfort",
-  description: "Enjoy elegant staterooms, fine Scottish dining, and inclusive pricing that covers everything—from excursions to beverages.",
+  title: "Scottish Isles Focus",
+  description: "Cruises explore the Highlands and remote Scottish isles with knowledgeable local guides.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Intimate Cruising Atmosphere",
-  description: "With space for just 50 guests, the Hebridean Princess offers unmatched tranquility and attention to detail.",
+  title: "Fine Scottish Dining",
+  description: "Menus celebrate regional ingredients, Scottish whisky, and locally sourced fare.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Cultural Enrichment",
-  description: "Onboard lecturers, pipers, and ceilidhs bring Scottish tradition to life throughout your voyage.",
+  title: "Royal Endorsement",
+  description: "Known for hosting Queen Elizabeth II, the ship delivers regal-level comfort and privacy.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Hebridean Island Cruises Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
